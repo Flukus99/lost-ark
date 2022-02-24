@@ -156,15 +156,24 @@ body{
        background-size:cover;
        background-position: top center;
       
-    }  
+    } 
+    .title img{
+        width: 60vw;
+    } 
     .feature{
         height: 100vw;
+        margin-top: 50vw;
     }
     .feature img{  
         height: 50vw;
         width: 60vw;
 
     } 
+    
+    .info{
+        margin-top: 30vw;
+        
+    }  
     .container_feature{
         width: 73vw;
         height: 85vw;
