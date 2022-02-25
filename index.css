@@ -225,17 +225,17 @@ body{
     }
     .container_feature p{
         grid-row: 13;
-        font-size: 150%;
+        font-size: 4vw;
     }
     .container_feature h3{
         grid-column: 4/9;
         grid-row: 11;
-        font-size: 160%;
+        font-size: 5vw;
     }
     .btn2{
         grid-row: 17;
-        height: 140%;
-        width: 120%;
+        height: 10vw;
+        width: 20vw;
     }
 
 
