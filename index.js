@@ -7,5 +7,7 @@ window.addEventListener('scroll', function(){
 
     if(position<(screen+10)){
         animacion.style.animation='animado .5s ease'
+        
     }
+   
 })
