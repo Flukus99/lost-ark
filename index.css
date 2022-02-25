@@ -23,12 +23,15 @@ body{
 
 .title img{
     width: 35%;
+    margin-left: 15vw;
 }
 
 .info{
     color: white;
-    
-    margin-top: 10vw;
+    display: grid;
+    grid-template-rows: repeat(6,5vw);
+    grid-template-columns: repeat(7,5vw);
+    margin-top: 3vw;
     margin-left: 10%;
     
 }
@@ -42,9 +45,10 @@ body{
     outline: none;
     border-style: solid;
     border-color:rgba(0, 0,0, .01);
-
     transition: all 1s;
     border-style: none;
+    grid-row: 7;
+    grid-column: 1/7;
 }
 .btn:hover{
     background-color: rgba(0, 0,0, .01);
@@ -55,8 +59,13 @@ body{
 .info h1{
     font-size: 5vw;
     color: #d5d5d5;
+    grid-row: 1/3;
+    grid-column: 1/7;
 }
 .info p{
+    grid-row: 5/6;
+    grid-column: 1/7;
+
     color:#e6e6e6;
 }
 
@@ -74,7 +83,7 @@ body{
 .feature{
     color: white;
     
-    margin-top: 20vw;
+    margin-top: 15vw;
     margin-left: 10%;
    
     height: 80vh;
@@ -141,6 +150,21 @@ body{
     background: linear-gradient(to top,black, rgba(0,0,0,0.1));
 }
 
+.otra_seccion2{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom,black, rgba(0,0,0,0.1));
+}
+
+
+.segunda_seccion{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('./images/carry.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
 
 
 
@@ -157,37 +181,83 @@ body{
        background-position: top center;
       
     } 
+
+    .info h1{
+        font-size: 10vw;
+        text-align: center;
+
+    }
+    .info p{
+        font-size: 4vw;
+        text-align: center;
+    }
     .title img{
         width: 60vw;
-    } 
+    }
+    
+    .btn{
+        margin-left: 32vw;
+    }
     .feature{
         height: 100vw;
         margin-top: 50vw;
+        margin-left: 3vw;
     }
     .feature img{  
-        height: 50vw;
-        width: 60vw;
-
+        height: 52vw;
+        width: 72vw;
+        
     } 
-    
+    .feature h1{
+        font-size: 200%;
+        text-align: center;
+    }
     .info{
         margin-top: 30vw;
+        display: block;
         
     }  
     .container_feature{
-        width: 73vw;
-        height: 85vw;
-        grid-template-columns: repeat(10, 7vw);
-        grid-template-rows: repeat(15,6vw);
+        width: 90vw;
+        height: 110vw;
+        grid-template-columns: repeat(10, 8vw);
+        grid-template-rows: repeat(18,6vw);
     }
     .container_feature p{
-        font-size: 2.5vw;
+        grid-row: 13;
+        font-size: 150%;
     }
     .container_feature h3{
-        grid-column: 5/8;
-        grid-row: 10;
-        font-size: 3vw;
+        grid-column: 4/9;
+        grid-row: 11;
+        font-size: 160%;
     }
+    .btn2{
+        grid-row: 17;
+        height: 140%;
+        width: 120%;
+    }
+
+
+
+
+
+
+    .segunda_seccion{
+        background-size:cover;
+        background-position: top center;
+    }
+
+
+
+
+
+
+
+
+
+
+
    }
 
 
